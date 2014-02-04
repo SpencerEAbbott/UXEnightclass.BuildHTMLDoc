@@ -1,0 +1,39 @@
+{
+  "name": "UXEnightclass.BuildHTMLDoc",
+  "version": "0.0.0",
+  "description": "For this section of the course, students will be required to create a single page Web Site that incorporates best practices for building an HTML document.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpencerEAbbott/UXEnightclass.BuildHTMLDoc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpencerEAbbott/UXEnightclass.BuildHTMLDoc/issues"
+  },
+  "homepage": "https://github.com/SpencerEAbbott/UXEnightclass.BuildHTMLDoc",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-sass": "~0.10.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-cli": "~0.1.13"
+  },
+  "dependencies": {
+    "jade": "~1.1.5"
+    "grunt": "~0.4.1",
+    "grunt-sass": "~0.8.0",
+  },
+  "devDependencies": {
+  "grunt-contrib-watch": "~0.5.3",
+  "grunt-cli": "~0.1.11"
+  }
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "postinstall": "./node_modules/.bin/grunt"
+  },
+}
